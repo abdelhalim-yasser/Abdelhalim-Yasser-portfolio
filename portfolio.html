@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdelhalim Yasser</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header class="header">
+        <a href="#" class="logo-container">
+            <img src="logo.png" alt="logo" class="logo" />
+        </a>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <i id="menu-icon" class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav" id="nav">
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h4>
+                    Hello, My name is
+                    <span class="highlight">Abdelhalim Yasser</span>
+                </h4>
+                <h1>I'm <span id="typed-output" class="highlight"></span></h1>
+                <p>
+                    Experienced full-stack developer with expertise in web, desktop applications and some Flutter experience.
+                </p>
+                <div class="hero-buttons">
+                    <a href="/cv.pdf" download="Abdelhalim_Yasser_CV.pdf" class="cv-button">
+                        Download CV
+                    </a>
+                </div>
+            </div>
+
+            <img src="https://i.imgur.com/yfO0dh4.jpeg" alt="my personal img" class="hero-img" />
+        </div>
+    </section>
+
+    <!-- back to top button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- skills section -->
+    <section id="skills" class="skills-section">
+        <!-- Orbit Skills -->
+        <div class="orbit-container">
+            <div class="orbit">
+                <div class="center-text">Coding Skills</div>
+
+                <div class="icon html"><i class="fab fa-html5"></i></div>
+                <div class="icon css"><i class="fab fa-css3-alt"></i></div>
+                <div class="icon js"><i class="fab fa-js"></i></div>
+                <div class="icon python"><i class="fab fa-python"></i></div>
+                <div class="icon c">C</div>
+                <div class="icon cpp">C++</div>
+                <div class="icon java"><i class="fab fa-java"></i></div>
+                <div class="icon react"><i class="fab fa-react"></i></div>
+            </div>
+        </div>
+
+        <hr />
+
+        <!-- Soft Skills -->
+        <div class="soft-skills">
+            <h2 class="soft-title">Soft Skills</h2>
+            <div class="soft-grid">
+                <div class="soft-card">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2344/2344003.png" alt="Communication" />
+                    <p>Communication</p>
+                </div>
+                <div class="soft-card">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3135/3135706.png" alt="Marketing" />
+                    <p>Marketing</p>
+                </div>
+                <div class="soft-card">
+                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/egypt-9913651-8058628.png?f=webp&w=256" alt="Arabic" />
+                    <p>Arabic - Mother Tongue</p>
+                </div>
+                <div class="soft-card">
+                    <img src="https://cdn-icons-png.flaticon.com/128/197/197374.png" alt="English" />
+                    <p>English - Fluent Speaking</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects" class="projects-section">
+        <h2 class="projects-heading">My Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <iframe src="https://www.youtube.com/embed/vecH7gHS9pE" title="SOON" allowfullscreen></iframe>
+                <div class="project-content">
+                    <h3>SOON</h3>
+                    <a href="#" target="_blank" class="project-button">Learn More</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <iframe src="https://www.youtube.com/embed/vecH7gHS9pE" title="SOON" allowfullscreen></iframe>
+                <div class="project-content">
+                    <h3>SOON</h3>
+                    <a href="#" target="_blank" class="project-button">Learn More</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <iframe src="https://www.youtube.com/embed/vecH7gHS9pE" title="SOON" allowfullscreen></iframe>
+                <div class="project-content">
+                    <h3>SOON</h3>
+                    <a href="#" target="_blank" class="project-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- certificates section -->
+    <section id="certificates" class="certificates-section">
+        <h2>My Certificates</h2>
+        <div class="certificate-card">
+            <img src="CS50P.png" alt="Harvard CS50P" />
+            <h3>Harvard CS50P</h3>
+            <a href="https://cs50.harvard.edu/certificates/54973350-91ac-4a90-973e-eb9ae078064e" target="_blank" rel="noopener noreferrer">
+                View Certificate
+            </a>
+        </div>
+    </section>
+
+    <!-- blog section -->
+    <section id="blog" class="blog-section">
+        <h1 class="blog-title">Blog</h1>
+        <h1 class="blog-title">Coming Soon</h1>
+        <p class="blog-subtitle">
+            I'm working hard to improve this section. Stay tuned!
+        </p>
+        <p class="blog-follow">follow me, please</p>
+        <div class="blog-icons">
+            <a href="https://github.com/ABDELHALIM-1" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="www.linkedin.com/in/abdelhalim-yasser-284434285" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok-2x"></i></a>
+            <a href="www.youtube.com/@abdelhalimyasser4409" target="_blank"><i class="fab fa-youtube-2x"></i></a>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+
+        <div id="contact-success" class="contact-success" style="display: none;">
+            Thanks! Your message has been sent.
+        </div>
+
+        <form id="contact-form" action="https://usebasin.com/f/92970cf6ef7e" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-sections">
+            <!-- Logo -->
+            <img src="logo.png" alt="Logo" class="footer-logo" />
+
+            <!-- Navigation Links -->
+            <ul class="footer-list">
+                <li><a href="#">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Social Icons -->
+            <div class="footer-icons">
+                <a href="https://github.com/abdelhalim" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="www.linkedin.com/in/abdelhalim-yasser-284434285" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/201025481684" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="www.youtube.com/@abdelhalimyasser4409" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <p class="footer-copy">&copy; 2025 <a href="#">Abdelhalim Yasser</a> | All Right Reversed</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
